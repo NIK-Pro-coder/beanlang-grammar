@@ -1,0 +1,23 @@
+
+stdout("out.txt")
+
+class Coffe(str name, int cost) {
+	fn warm() {
+		println("Warmed up a ", self:name, " for $", self:cost)
+	}
+
+	fn inflation(int amt) {
+		self:cost += amt
+	}
+}
+
+object coffee = Coffe("Cappuccino", 100)
+
+str coffee_name = "Coffe cost is: "
+coffee_name = coffee_name << coffee:cost << "$"
+
+println(coffee_name)
+
+coffee:warm()
+
+coffee:inflation(10)

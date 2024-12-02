@@ -1,0 +1,33 @@
+{
+  "grammars": [
+    {
+      "name": "beanlang",
+      "camelcase": "Beanlang",
+      "scope": "source.beanlang",
+      "path": ".",
+      "file-types": null,
+      "injection-regex": "^beanlang$"
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "license": "MIT",
+    "description": "A lil grammar for a lil language",
+    "authors": [
+      {
+        "name": "Team Bean"
+      }
+    ],
+    "links": {
+      "repository": "https://github.com/NIK-Pro-coder/beanlang-grammar"
+    }
+  },
+  "bindings": {
+    "c": true,
+    "go": true,
+    "node": true,
+    "python": true,
+    "rust": true,
+    "swift": true
+  }
+}
